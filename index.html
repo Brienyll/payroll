@@ -1,19 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chart with Tailwind and Chart.js</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="bg-gray-100 flex justify-center items-center h-screen">
-    <div class="p-6 bg-white rounded shadow">
-        <canvas id="myChart"></canvas>
-    </div>
-    <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HR & Payroll Dashboard</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-sans">
+    <nav class="bg-blue-800 text-white p-4">
+      <ul class="flex justify-around list-none">
+        <li>
+          <a href="#employee-management" class="text-white no-underline"
+            >Employee Management</a
+          >
+        </li>
+        <li>
+          <a href="#payroll-calculations" class="text-white no-underline"
+            >Payroll Calculations</a
+          >
+        </li>
+        <li><a href="#reports" class="text-white no-underline">Reports</a></li>
+      </ul>
+    </nav>
+
+    <section id="employee-management" class="p-6 m-6">
+      <h2 class="text-xl font-bold">Employee Management</h2>
+      <!-- Content for managing employees -->
+    </section>
+
+    <section id="payroll-calculations" class="p-6 m-6">
+      <h2 class="text-xl font-bold">Payroll Calculations</h2>
+      <!-- Content for payroll calculations -->
+    </section>
+
+    <section id="reports" class="p-6 m-6">
+      <h2 class="text-xl font-bold">Reports</h2>
+      <!-- Content for generating and viewing reports -->
+    </section>
+  </body>
 </html>
-    
